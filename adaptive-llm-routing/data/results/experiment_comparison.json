@@ -1,0 +1,31 @@
+[
+  {
+    "single_llm": {
+      "count": 15,
+      "avg_accuracy": 0.401,
+      "avg_quality": 0.68,
+      "avg_latency": 1.814,
+      "total_tokens": 15142,
+      "total_cost": 0.001514,
+      "avg_efficiency": 15381.63
+    },
+    "multi_agent": {
+      "count": 15,
+      "avg_accuracy": 0.472,
+      "avg_quality": 0.77,
+      "avg_latency": 20.461,
+      "total_tokens": 60782,
+      "total_cost": 0.006077,
+      "avg_efficiency": 2521.43
+    },
+    "adaptive": {
+      "count": 15,
+      "avg_accuracy": 0.437,
+      "avg_quality": 0.7,
+      "avg_latency": 6.774,
+      "total_tokens": 33613,
+      "total_cost": 0.003362,
+      "avg_efficiency": 15366.75
+    }
+  }
+]

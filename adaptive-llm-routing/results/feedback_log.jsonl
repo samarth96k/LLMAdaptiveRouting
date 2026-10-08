@@ -1,0 +1,15 @@
+{"task_id": "simple_gen_01", "complexity_score": 0.1163, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397513.390207}
+{"task_id": "simple_gen_02", "complexity_score": 0.113, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397515.4453554}
+{"task_id": "simple_gen_03", "complexity_score": 0.1195, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397517.2904058}
+{"task_id": "simple_gen_04", "complexity_score": 0.1261, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397519.412708}
+{"task_id": "simple_gen_05", "complexity_score": 0.1061, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397521.00136}
+{"task_id": "medium_math_01", "complexity_score": 0.1369, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397523.4758425}
+{"task_id": "medium_math_02", "complexity_score": 0.1261, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397525.8567538}
+{"task_id": "medium_math_03", "complexity_score": 0.1264, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397528.5663714}
+{"task_id": "medium_math_04", "complexity_score": 0.2373, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397530.5173917}
+{"task_id": "medium_math_05", "complexity_score": 0.2598, "route": "single_llm", "routing_correct": true, "accuracy": 0.8, "cost": 0.0, "timestamp": 1791397532.820271}
+{"task_id": "complex_math_01", "complexity_score": 0.3978, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397550.2365673}
+{"task_id": "complex_math_02", "complexity_score": 0.4097, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397553.329247}
+{"task_id": "complex_math_03", "complexity_score": 0.2607, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397592.4673681}
+{"task_id": "complex_code_01", "complexity_score": 0.2569, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397625.922847}
+{"task_id": "complex_code_02", "complexity_score": 0.3464, "route": "single_llm", "routing_correct": false, "accuracy": 0.0, "cost": 0.0, "timestamp": 1791397657.4546573}

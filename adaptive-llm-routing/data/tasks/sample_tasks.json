@@ -1,0 +1,72 @@
+[
+    {
+        "task_id": "simple_01",
+        "prompt": "What is the capital of France?",
+        "task_type": "general",
+        "difficulty": "simple",
+        "ground_truth": "Paris"
+    },
+    {
+        "task_id": "simple_02",
+        "prompt": "Calculate 15 * 7 + 3",
+        "task_type": "math",
+        "difficulty": "simple",
+        "ground_truth": "108"
+    },
+    {
+        "task_id": "simple_03",
+        "prompt": "What does the acronym API stand for?",
+        "task_type": "general",
+        "difficulty": "simple",
+        "ground_truth": "Application Programming Interface"
+    },
+    {
+        "task_id": "medium_01",
+        "prompt": "Explain the difference between TCP and UDP protocols. When would you use each one? Provide real-world examples.",
+        "task_type": "reasoning",
+        "difficulty": "medium",
+        "ground_truth": null
+    },
+    {
+        "task_id": "medium_02",
+        "prompt": "A store sells apples for $2 each and oranges for $3 each. If a customer buys a total of 10 fruits and spends $24, how many apples and oranges did they buy? Show your step-by-step reasoning.",
+        "task_type": "math",
+        "difficulty": "medium",
+        "ground_truth": "4 oranges and 6 apples"
+    },
+    {
+        "task_id": "medium_03",
+        "prompt": "Compare and contrast supervised learning and unsupervised learning in machine learning. Give two examples of each and explain when one approach is preferred over the other.",
+        "task_type": "reasoning",
+        "difficulty": "medium",
+        "ground_truth": null
+    },
+    {
+        "task_id": "complex_01",
+        "prompt": "Design a Python class hierarchy for a library management system. The system should handle books, magazines, and digital media. Each item should support borrowing, returning, and reservation. Include proper inheritance, abstract methods, and explain your design decisions. Then write a usage example showing polymorphism in action.",
+        "task_type": "code",
+        "difficulty": "complex",
+        "ground_truth": null
+    },
+    {
+        "task_id": "complex_02",
+        "prompt": "Analyze the following algorithmic problem step by step: Given an array of n integers, find the longest subsequence such that the difference between adjacent elements is at most k. First, explain the brute force approach and its time complexity. Then, optimize using dynamic programming. Finally, analyze if there is a greedy solution. Compare all three approaches.",
+        "task_type": "code",
+        "difficulty": "complex",
+        "ground_truth": null
+    },
+    {
+        "task_id": "complex_03",
+        "prompt": "Explain how transformers work in deep learning. Start from the attention mechanism, then explain self-attention, multi-head attention, positional encoding, and the encoder-decoder architecture. Then critically evaluate the pros and cons of transformers versus RNNs and CNNs for NLP tasks. Finally, discuss how modern LLMs like GPT and LLaMA build on the transformer architecture and what innovations they introduced.",
+        "task_type": "reasoning",
+        "difficulty": "complex",
+        "ground_truth": null
+    },
+    {
+        "task_id": "complex_04",
+        "prompt": "You are given a dataset of customer purchase history with 1 million rows and 50 features. Design a complete machine learning pipeline for predicting customer churn. Include: 1) Feature engineering strategy 2) How to handle class imbalance 3) Model selection with justification 4) Evaluation metrics and why 5) How to deploy this model in production with monitoring. For each step, explain the tradeoffs between at least two approaches.",
+        "task_type": "reasoning",
+        "difficulty": "complex",
+        "ground_truth": null
+    }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "threshold_history": [
+      0.4,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "final_stats": {
+      "total_runs": 45,
+      "routing_accuracy": 0.2,
+      "single_llm_count": 36,
+      "multi_agent_count": 9,
+      "avg_accuracy": 0.438,
+      "total_cost": 0.009373,
+      "adapted_threshold": 0.3
+    }
+  }
+]

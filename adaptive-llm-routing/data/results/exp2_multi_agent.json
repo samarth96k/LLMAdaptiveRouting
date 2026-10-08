@@ -1,0 +1,752 @@
+[
+  {
+    "task_id": "simple_gen_01",
+    "prompt": "What is the capital of France?",
+    "task_type": "general",
+    "ground_truth": "Paris",
+    "response": "**Correctness:** The answer is correct – the capital of France is Paris.  \n\n**Completeness:** The solution fully addresses the question and provides the required answer.  \n\n**Clarity:** The response is well‑structured, with clear steps and a concise final statement.\n\n**Final Answer:**  \nThe capital of France is **Paris**.",
+    "complexity_score": 0.1727,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 1251
+    },
+    "latency_seconds": 11.633,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 348
+      },
+      {
+        "agent": "executor",
+        "tokens": 412
+      },
+      {
+        "agent": "verifier",
+        "tokens": 491
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.729,
+    "quality_score": 0.9,
+    "semantic_similarity_score": 0.521,
+    "end_time": 1791370028.4655337,
+    "feedback": {
+      "task_id": "simple_gen_01",
+      "route": "multi_agent",
+      "complexity_score": 0.1727,
+      "accuracy": 0.729,
+      "quality": 0.9,
+      "latency": 11.633,
+      "tokens": 1251,
+      "cost": 0.000125,
+      "efficiency": 5827.34,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000125
+  },
+  {
+    "task_id": "simple_gen_02",
+    "prompt": "Who wrote Romeo and Juliet?",
+    "task_type": "general",
+    "ground_truth": "William Shakespeare",
+    "response": "**Answer:** *Romeo and Juliet* was written by **William Shakespeare**.",
+    "complexity_score": 0.1695,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 1344
+    },
+    "latency_seconds": 10.688,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 326
+      },
+      {
+        "agent": "executor",
+        "tokens": 512
+      },
+      {
+        "agent": "verifier",
+        "tokens": 506
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.751,
+    "quality_score": 1.0,
+    "semantic_similarity_score": 0.578,
+    "end_time": 1791370048.7873483,
+    "feedback": {
+      "task_id": "simple_gen_02",
+      "route": "multi_agent",
+      "complexity_score": 0.1695,
+      "accuracy": 0.751,
+      "quality": 1.0,
+      "latency": 10.688,
+      "tokens": 1344,
+      "cost": 0.000134,
+      "efficiency": 5587.8,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000134
+  },
+  {
+    "task_id": "simple_gen_03",
+    "prompt": "What does the acronym API stand for?",
+    "task_type": "general",
+    "ground_truth": "Application Programming Interface",
+    "response": "**Answer:** API stands for **Application Programming Interface**.",
+    "complexity_score": 0.1759,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 1086
+    },
+    "latency_seconds": 11.299,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 275
+      },
+      {
+        "agent": "executor",
+        "tokens": 386
+      },
+      {
+        "agent": "verifier",
+        "tokens": 425
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.738,
+    "quality_score": 1.0,
+    "semantic_similarity_score": 0.544,
+    "end_time": 1791370082.3988764,
+    "feedback": {
+      "task_id": "simple_gen_03",
+      "route": "multi_agent",
+      "complexity_score": 0.1759,
+      "accuracy": 0.738,
+      "quality": 1.0,
+      "latency": 11.299,
+      "tokens": 1086,
+      "cost": 0.000109,
+      "efficiency": 6795.58,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000109
+  },
+  {
+    "task_id": "simple_gen_04",
+    "prompt": "What is the boiling point of water in Celsius?",
+    "task_type": "general",
+    "ground_truth": "100",
+    "response": "The boiling point of water is **100 °C** (at standard atmospheric pressure of 1 atm, i.e., 101.3 kPa).",
+    "complexity_score": 0.1812,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 1344
+    },
+    "latency_seconds": 12.793,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 394
+      },
+      {
+        "agent": "executor",
+        "tokens": 451
+      },
+      {
+        "agent": "verifier",
+        "tokens": 499
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.613,
+    "quality_score": 1.0,
+    "semantic_similarity_score": 0.233,
+    "end_time": 1791370111.3491533,
+    "feedback": {
+      "task_id": "simple_gen_04",
+      "route": "multi_agent",
+      "complexity_score": 0.1812,
+      "accuracy": 0.613,
+      "quality": 1.0,
+      "latency": 12.793,
+      "tokens": 1344,
+      "cost": 0.000134,
+      "efficiency": 4561.01,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000134
+  },
+  {
+    "task_id": "simple_gen_05",
+    "prompt": "Name the largest planet in our solar system.",
+    "task_type": "general",
+    "ground_truth": "Jupiter",
+    "response": "**Answer:** The largest planet in our solar system is **Jupiter**.",
+    "complexity_score": 0.1617,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 1922
+    },
+    "latency_seconds": 11.878,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 452
+      },
+      {
+        "agent": "executor",
+        "tokens": 773
+      },
+      {
+        "agent": "verifier",
+        "tokens": 697
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.753,
+    "quality_score": 1.0,
+    "semantic_similarity_score": 0.583,
+    "end_time": 1791370138.1493118,
+    "feedback": {
+      "task_id": "simple_gen_05",
+      "route": "multi_agent",
+      "complexity_score": 0.1617,
+      "accuracy": 0.753,
+      "quality": 1.0,
+      "latency": 11.878,
+      "tokens": 1922,
+      "cost": 0.000192,
+      "efficiency": 3917.79,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000192
+  },
+  {
+    "task_id": "medium_math_01",
+    "prompt": "A store sells apples for $2 each and oranges for $3 each. If a customer buys a total of 10 fruits and spends $24, how many apples and oranges did they buy? Show your step-by-step reasoning.",
+    "task_type": "math",
+    "ground_truth": "6 apples and 4 oranges",
+    "response": "**Answer**\n\n- Apples purchased: **6**  \n- Oranges purchased: **4**\n\n**Reasoning**\n\n1. Let \\(a\\) = number of apples, \\(o\\) = number of oranges.  \n2. Total fruits: \\(a + o = 10\\).  \n3. Total cost: \\(2a + 3o = 24\\) (since apples cost \\$2 and oranges \\$3).  \n4. From (2): \\(a = 10 - o\\).  \n5. Substitute into the cost equation:  \n   \\[\n   2(10 - o) + 3o = 24 \\;\\Longrightarrow\\; 20 - 2o + 3o = 24 \\;\\Longrightarrow\\; 20 + o = 24.\n   \\]  \n6. Solve for \\(o\\): \\(o = 4\\).  \n7. Find \\(a\\): \\(a = 10 - 4 = 6\\).  \n8. Verify:  \n   - Fruits: \\(6 + 4 = 10\\).  \n   - Cost: \\(6 \\times \\$2 + 4 \\times \\$3 = \\$12 + \\$12 = \\$24\\).\n\nThus the customer bought **6 apples** and **4 oranges**.",
+    "complexity_score": 0.2021,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 2739
+    },
+    "latency_seconds": 12.362,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 736
+      },
+      {
+        "agent": "executor",
+        "tokens": 989
+      },
+      {
+        "agent": "verifier",
+        "tokens": 1014
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.593,
+    "quality_score": 1.0,
+    "semantic_similarity_score": 0.582,
+    "end_time": 1791370165.4092274,
+    "feedback": {
+      "task_id": "medium_math_01",
+      "route": "multi_agent",
+      "complexity_score": 0.2021,
+      "accuracy": 0.593,
+      "quality": 1.0,
+      "latency": 12.362,
+      "tokens": 2739,
+      "cost": 0.000274,
+      "efficiency": 2165.02,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000274
+  },
+  {
+    "task_id": "medium_math_02",
+    "prompt": "A rectangular garden has a perimeter of 56 meters. If the length is 4 meters more than the width, what are the dimensions of the garden? Show your work.",
+    "task_type": "math",
+    "ground_truth": "Length: 16m, Width: 12m",
+    "response": "**Verification**\n\nThe solution correctly models the problem:\n\n* Let \\(w\\) be the width and \\(l\\) the length.  \n* Given \\(l = w + 4\\) and the perimeter formula \\(2l + 2w = 56\\).\n\nSubstituting and solving:\n\n\\[\n2(w+4)+2w = 56 \\;\\Longrightarrow\\; 4w + 8 = 56 \\;\\Longrightarrow\\; 4w = 48 \\;\\Longrightarrow\\; w = 12\\text{ m}\n\\]\n\nThen  \n\n\\[\nl = w + 4 = 12 + 4 = 16\\text{ m}\n\\]\n\nChecking the perimeter:\n\n\\[\n2l + 2w = 2(16) + 2(12) = 32 + 24 = 56\\text{ m}\n\\]\n\nThe dimensions satisfy both the perimeter condition and the length‑width relationship.\n\n**Final Answer**\n\n- Width: **12 meters**  \n- Length: **16 meters**",
+    "complexity_score": 0.1946,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 2514
+    },
+    "latency_seconds": 12.174,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 584
+      },
+      {
+        "agent": "executor",
+        "tokens": 966
+      },
+      {
+        "agent": "verifier",
+        "tokens": 964
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.583,
+    "quality_score": 0.9,
+    "semantic_similarity_score": 0.582,
+    "end_time": 1791370193.7020168,
+    "feedback": {
+      "task_id": "medium_math_02",
+      "route": "multi_agent",
+      "complexity_score": 0.1946,
+      "accuracy": 0.583,
+      "quality": 0.9,
+      "latency": 12.174,
+      "tokens": 2514,
+      "cost": 0.000251,
+      "efficiency": 2319.01,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000251
+  },
+  {
+    "task_id": "medium_math_03",
+    "prompt": "Janet has 3 times as many marbles as Tom. Together they have 48 marbles. After Janet gives Tom 6 marbles, how many does each have? Show step-by-step reasoning.",
+    "task_type": "math",
+    "ground_truth": "Janet: 30, Tom: 18",
+    "response": "**Solution**\n\n1. Let  \n   * \\(T\\) = Tom’s original number of marbles  \n   * \\(J\\) = Janet’s original number of marbles  \n\n2. “Janet has 3 times as many marbles as Tom” gives  \n   \\[\n   J = 3T\n   \\]\n\n3. “Together they have 48 marbles” gives  \n   \\[\n   J + T = 48\n   \\]\n\n4. Substitute \\(J = 3T\\) into the total‑marble equation:  \n   \\[\n   3T + T = 48 \\;\\Longrightarrow\\; 4T = 48 \\;\\Longrightarrow\\; T = 12\n   \\]\n\n5. Find Janet’s original amount:  \n   \\[\n   J = 3T = 3 \\times 12 = 36\n   \\]\n\n6. Model the transfer of 6 marbles from Janet to Tom:  \n   \\[\n   \\begin{aligned}\n   T_{\\text{new}} &= T + 6 = 12 + 6 = 18,\\\\\n   J_{\\text{new}} &= J - 6 = 36 - 6 = 30.\n   \\end{aligned}\n   \\]\n\n7. Check the total is unchanged:  \n   \\[\n   J_{\\text{new}} + T_{\\text{new}} = 30 + 18 = 48,\n   \\]\n   which matches the original total.\n\n---\n\n**Answer**\n\nAfter Janet gives Tom 6 marbles:\n\n- Tom has **18 marbles**.  \n- Janet has **30 marbles**.",
+    "complexity_score": 0.1825,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 2921
+    },
+    "latency_seconds": 12.94,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 676
+      },
+      {
+        "agent": "executor",
+        "tokens": 1071
+      },
+      {
+        "agent": "verifier",
+        "tokens": 1174
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.292,
+    "quality_score": 0.6,
+    "semantic_similarity_score": 0.331,
+    "end_time": 1791370220.0936315,
+    "feedback": {
+      "task_id": "medium_math_03",
+      "route": "multi_agent",
+      "complexity_score": 0.1825,
+      "accuracy": 0.292,
+      "quality": 0.6,
+      "latency": 12.94,
+      "tokens": 2921,
+      "cost": 0.000292,
+      "efficiency": 999.66,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000292
+  },
+  {
+    "task_id": "medium_math_04",
+    "prompt": "A car travels from City A to City B at 60 km/h and returns at 40 km/h. If the total trip takes 5 hours, what is the distance between the cities? Solve step by step.",
+    "task_type": "math",
+    "ground_truth": "120 km",
+    "response": "**Answer: 120 km**\n\n**Verification**\n\nLet \\(d\\) be the one‑way distance (km).\n\n\\[\n\\text{Time A→B}= \\frac{d}{60},\\qquad \n\\text{Time B→A}= \\frac{d}{40}\n\\]\n\nTotal time:\n\n\\[\n\\frac{d}{60}+\\frac{d}{40}=5\n\\]\n\nCommon denominator \\(120\\):\n\n\\[\n\\frac{2d}{120}+\\frac{3d}{120}= \\frac{5d}{120}=5\n\\]\n\n\\[\n5d = 5 \\times 120 = 600 \\;\\Longrightarrow\\; d = \\frac{600}{5}=120\\text{ km}\n\\]\n\nCheck:  \n\\(120/60 = 2\\) h, \\(120/40 = 3\\) h, total \\(2+3 = 5\\) h, which matches the given total time.\n\nHence the distance between City A and City B is **120 kilometers** (round‑trip distance would be \\(2d = 240\\) km).",
+    "complexity_score": 0.2971,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 2772
+    },
+    "latency_seconds": 12.54,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 664
+      },
+      {
+        "agent": "executor",
+        "tokens": 1039
+      },
+      {
+        "agent": "verifier",
+        "tokens": 1069
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.345,
+    "quality_score": 0.95,
+    "semantic_similarity_score": 0.363,
+    "end_time": 1791370245.9587612,
+    "feedback": {
+      "task_id": "medium_math_04",
+      "route": "multi_agent",
+      "complexity_score": 0.2971,
+      "accuracy": 0.345,
+      "quality": 0.95,
+      "latency": 12.54,
+      "tokens": 2772,
+      "cost": 0.000277,
+      "efficiency": 1244.59,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000277
+  },
+  {
+    "task_id": "medium_math_05",
+    "prompt": "In a class of 40 students, 25 play football, 20 play basketball, and 10 play both. How many play neither sport? Use set theory and show your reasoning.",
+    "task_type": "math",
+    "ground_truth": "5",
+    "response": "**Verification**\n\n- Total students: \\(|U| = 40\\)  \n- Football players: \\(|F| = 25\\)  \n- Basketball players: \\(|B| = 20\\)  \n- Both sports: \\(|F\\cap B| = 10\\)\n\n**Inclusion‑Exclusion**\n\n\\[\n|F\\cup B| = |F| + |B| - |F\\cap B|\n           = 25 + 20 - 10\n           = 35.\n\\]\n\nSo 35 students play at least one of the two sports.\n\n**Neither sport**\n\n\\[\n|U\\setminus (F\\cup B)| = |U| - |F\\cup B|\n                       = 40 - 35\n                       = 5.\n\\]\n\n**Answer**\n\n\\[\n\\boxed{5}\n\\]\n\nThus, 5 students in the class play neither football nor basketball. The solution is correct, complete, and clearly presented.",
+    "complexity_score": 0.3291,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 2295
+    },
+    "latency_seconds": 12.147,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 575
+      },
+      {
+        "agent": "executor",
+        "tokens": 839
+      },
+      {
+        "agent": "verifier",
+        "tokens": 881
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.624,
+    "quality_score": 0.9,
+    "semantic_similarity_score": 0.26,
+    "end_time": 1791370271.7367687,
+    "feedback": {
+      "task_id": "medium_math_05",
+      "route": "multi_agent",
+      "complexity_score": 0.3291,
+      "accuracy": 0.624,
+      "quality": 0.9,
+      "latency": 12.147,
+      "tokens": 2295,
+      "cost": 0.00023,
+      "efficiency": 2718.95,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.00023
+  },
+  {
+    "task_id": "complex_math_01",
+    "prompt": "A company produces widgets in two factories. Factory A produces 60% of widgets with a 3% defect rate. Factory B produces 40% with a 5% defect rate. Step 1: If a randomly selected widget is defective, what is the probability it came from Factory A? Step 2: If you test 100 widgets and find 4 defective ones, is this consistent with the expected defect rate? Step 3: Calculate the 95% confidence interval for the overall defect rate.",
+    "task_type": "math",
+    "ground_truth": "P(A|defective) ≈ 0.474",
+    "response": "**Step 1 – Probability that a defective widget came from Factory A**\n\n\\[\n\\begin{aligned}\nP(D) &= P(A)P(D\\mid A)+P(B)P(D\\mid B)  \\\\\n     &= 0.60(0.03)+0.40(0.05)=0.018+0.020=0.038 .\n\\end{aligned}\n\\]\n\n\\[\nP(A\\mid D)=\\frac{P(A)P(D\\mid A)}{P(D)}\n          =\\frac{0.60\\times0.03}{0.038}\n          =\\frac{0.018}{0.038}\\approx0.4737 .\n\\]\n\n\\[\n\\boxed{P(A\\mid D)\\approx0.474\\;(47.4\\%)} \n\\]\n\n---\n\n**Step 2 – Is observing 4 defectives out of 100 consistent with the expected rate?**\n\n* Expected number of defectives: \\(E=nP(D)=100\\times0.038=3.8\\).\n* Standard deviation (binomial):  \n\n\\[\n\\sigma=\\sqrt{nP(D)[1-P(D)]}\n      =\\sqrt{100\\times0.038\\times0.962}\n      =\\sqrt{3.6556}\\approx1.912 .\n\\]\n\n* Z‑score for the observed count \\(x=4\\):\n\n\\[\nz=\\frac{x-E}{\\sigma}=\\frac{4-3.8}{1.912}\\approx0.105 .\n\\]\n\nBecause \\(|z|=0.105 < 1.96\\) (the 95 % two‑sided critical value), the observation is well within the range expected by chance.\n\n\\[\n\\boxed{\\text{Four defectives in 100 is perfectly consistent with the expected defect rate.}}\n\\]\n\n---\n\n**Step 3 – 95 % confidence interval for the overall defect proportion (based on the sample of 100)**  \n\nSample proportion: \\(\\hat p = \\dfrac{4}{100}=0.04\\).\n\nStandard error (normal approximation):\n\n\\[\n\\text{SE}= \\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}\n        = \\sqrt{\\frac{0.04\\times0.96}{100}}\n        = \\sqrt{0.000384}\\approx0.0196 .\n\\]\n\nMargin of error ( \\(z^{*}=1.96\\) ):\n\n\\[\n\\text{ME}=1.96\\times0.0196\\approx0.0384 .\n\\]\n\nConfidence interval:\n\n\\[\n\\begin{aligned}\n\\text{Lower}&=\\hat p-\\text{ME}=0.04-0.0384=0.0016,\\\\\n\\text{Upper}&=\\hat p+\\text{ME}=0.04+0.0384=0.0784 .\n\\end{aligned}\n\\]\n\n\\[\n\\boxed{95\\% \\text{ CI for the defect proportion } = (0.0016,\\;0.0784)}\n\\]\nor, in percentages, \\((0.16\\%,\\;7.84\\%)\\).\n\nThe interval contains the theoretical overall defect rate of 3.8 %, confirming that the sample result (4 %) is entirely plausible.",
+    "complexity_score": 0.4809,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 5704
+    },
+    "latency_seconds": 16.74,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 899
+      },
+      {
+        "agent": "executor",
+        "tokens": 2258
+      },
+      {
+        "agent": "verifier",
+        "tokens": 2547
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.608,
+    "quality_score": 0.7,
+    "semantic_similarity_score": 0.621,
+    "end_time": 1791370306.359864,
+    "feedback": {
+      "task_id": "complex_math_01",
+      "route": "multi_agent",
+      "complexity_score": 0.4809,
+      "accuracy": 0.608,
+      "quality": 0.7,
+      "latency": 16.74,
+      "tokens": 5704,
+      "cost": 0.00057,
+      "efficiency": 1065.92,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.00057
+  },
+  {
+    "task_id": "complex_math_02",
+    "prompt": "A farmer has 200 meters of fencing to enclose a rectangular area next to a river (no fencing needed on the river side). Step 1: Express the area as a function of width. Step 2: Find the dimensions that maximize the area using calculus. Step 3: What if the farmer wants to divide the rectangle into 3 equal sections with fencing parallel to the width? Find the new optimal dimensions.",
+    "task_type": "math",
+    "ground_truth": "Without division: 100m × 50m = 5000 sq m",
+    "response": "**Step 1 – Area as a function of the width**\n\nLet  \n\n* \\(w\\) = width (the side perpendicular to the river)  \n* \\(l\\) = length (the side parallel to the river)\n\nOnly three sides need fencing:\n\n\\[\n2w+l = 200\\qquad\\Longrightarrow\\qquad l = 200-2w .\n\\]\n\nThe enclosed area is  \n\n\\[\nA = w\\;l = w(200-2w)=200w-2w^{2}.\n\\]\n\n\\[\n\\boxed{A(w)=200w-2w^{2}}\n\\]\n\n---\n\n**Step 2 – Dimensions that maximise the area (single rectangle)**  \n\n\\[\nA'(w)=200-4w=0\\;\\Longrightarrow\\; w=50\\text{ m}.\n\\]\n\n\\[\nA''(w)=-4<0\\quad\\text{(maximum)}.\n\\]\n\nFrom the fence constraint  \n\n\\[\nl = 200-2w = 200-2(50)=100\\text{ m}.\n\\]\n\n\\[\n\\boxed{\\text{Width}=50\\text{ m},\\;\\text{Length}=100\\text{ m}},\\qquad\nA_{\\max}=50\\times100=5\\,000\\ \\text{m}^{2}.\n\\]\n\n---\n\n**Step 3 – Divide the rectangle into 3 equal sections with interior fences parallel to the width**\n\nTwo interior fences are needed; each has length \\(w\\).  \nTotal fencing used:\n\n\\[\n\\underbrace{2w}_{\\text{outer widths}}+\\underbrace{l}_{\\text{outer length}}\n+\\underbrace{2w}_{\\text{interior fences}} = 4w+l = 200,\n\\]\n\nso  \n\n\\[\nl = 200-4w .\n\\]\n\nThe total area is still \\(A = w\\,l\\):\n\n\\[\nA(w)=w(200-4w)=200w-4w^{2}.\n\\]\n\n\\[\nA'(w)=200-8w=0\\;\\Longrightarrow\\; w=25\\text{ m}.\n\\]\n\n\\[\nA''(w)=-8<0\\quad\\text{(maximum)}.\n\\]\n\nThen  \n\n\\[\nl = 200-4w = 200-4(25)=100\\text{ m}.\n\\]\n\n\\[\n\\boxed{\\text{Width}=25\\text{ m},\\;\\text{Length}=100\\text{ m}},\\qquad\nA_{\\max}=25\\times100=2\\,500\\ \\text{m}^{2}.\n\\]\n\nEach of the three equal sections has area  \n\n\\[\n\\frac{2\\,500}{3}\\approx 833.33\\ \\text{m}^{2}.\n\\]\n\n---\n\n### Summary\n\n| Situation | Width \\(w\\) | Length \\(l\\) | Fence used | Max area |\n|-----------|------------|--------------|------------|----------|\n| Single rectangle (no interior fences) | 50 m | 100 m | \\(2w+l=200\\) m | 5 000 m² |\n| Rectangle split into 3 equal parts (interior fences parallel to width) | 25 m | 100 m | \\(4w+l=200\\) m | 2 500 m² (≈ 833 m² per part) |\n\nThese dimensions use the entire 200 m of fencing and give the greatest possible enclosed area in each case.",
+    "complexity_score": 0.51,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 6378
+    },
+    "latency_seconds": 17.583,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 1351
+      },
+      {
+        "agent": "executor",
+        "tokens": 2258
+      },
+      {
+        "agent": "verifier",
+        "tokens": 2769
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.302,
+    "quality_score": 0.8,
+    "semantic_similarity_score": 0.354,
+    "end_time": 1791370340.6627002,
+    "feedback": {
+      "task_id": "complex_math_02",
+      "route": "multi_agent",
+      "complexity_score": 0.51,
+      "accuracy": 0.302,
+      "quality": 0.8,
+      "latency": 17.583,
+      "tokens": 6378,
+      "cost": 0.000638,
+      "efficiency": 473.5,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000638
+  },
+  {
+    "task_id": "complex_math_03",
+    "prompt": "Solve the following system of equations step by step using at least two different methods (substitution and matrix method): 2x + 3y - z = 1, x - y + 2z = 5, 3x + y + z = 8. Verify your solution by substituting back into all three equations.",
+    "task_type": "math",
+    "ground_truth": "x=2, y=-1, z=3",
+    "response": "**System**\n\n\\[\n\\begin{cases}\n2x+3y-z = 1 \\\\[2mm]\nx-y+2z = 5 \\\\[2mm]\n3x+y+z = 8\n\\end{cases}\n\\]\n\nBoth the substitution (elimination) method and the matrix (Gaussian‑elimination) method give the same unique solution, which we verify by substitution.\n\n--------------------------------------------------------------------\n### 1.  Substitution / Elimination  \n\nFrom the second equation  \n\n\\[\nx = 5 + y - 2z \\tag{A}\n\\]\n\nInsert (A) into the other two equations.\n\n*In (1):*  \n\n\\[\n2(5+y-2z)+3y-z = 1\\Longrightarrow 10+2y-4z+3y-z = 1\n\\]\n\\[\n5y-5z = -9\\Longrightarrow y-z = -\\frac{9}{5}. \\tag{B}\n\\]\n\n*In (3):*  \n\n\\[\n3(5+y-2z)+y+z = 8\\Longrightarrow 15+3y-6z+y+z = 8\n\\]\n\\[\n4y-5z = -7. \\tag{C}\n\\]\n\nNow solve (B)–(C) for \\(y\\) and \\(z\\).\n\nMultiply (B) by 5: \\(5y-5z=-9\\).  \nSubtract this from (C):\n\n\\[\n(4y-5z)-(5y-5z) = -7-(-9)\\;\\Longrightarrow\\;-y = 2\\;\\Longrightarrow\\;y = -2.\n\\]\n\nPut \\(y=-2\\) into (B):\n\n\\[\n-2 - z = -\\frac{9}{5}\\;\\Longrightarrow\\; -z = \\frac{1}{5}\\;\\Longrightarrow\\;z = -\\frac{1}{5}.\n\\]\n\nFinally, from (A)\n\n\\[\nx = 5 + (-2) - 2\\!\\left(-\\frac{1}{5}\\right)=3+\\frac{2}{5}= \\frac{17}{5}.\n\\]\n\n\\[\n\\boxed{(x,y,z)=\\left(\\dfrac{17}{5},\\,-2,\\,-\\dfrac{1}{5}\\right)}\n\\]\n\n--------------------------------------------------------------------\n### 2.  Matrix (Gaussian elimination)\n\n**Augmented matrix**\n\n\\[\n\\left[\\,\\begin{array}{ccc|c}\n2 & 3 & -1 & 1\\\\\n1 & -1 & 2 & 5\\\\\n3 & 1 & 1 & 8\n\\end{array}\\right]\n\\]\n\nSwap \\(R_1\\) and \\(R_2\\) (to get a leading 1):\n\n\\[\n\\left[\\,\\begin{array}{ccc|c}\n1 & -1 & 2 & 5\\\\\n2 & 3 & -1 & 1\\\\\n3 & 1 & 1 & 8\n\\end{array}\\right]\n\\]\n\nEliminate the entries below the leading 1:\n\n\\[\n\\begin{aligned}\nR_2 &\\leftarrow R_2-2R_1 \\; \\Rightarrow\\; [0\\; 5\\; -5\\mid -9],\\\\\nR_3 &\\leftarrow R_3-3R_1 \\; \\Rightarrow\\; [0\\; ",
+    "complexity_score": 0.3267,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 10598
+    },
+    "latency_seconds": 45.038,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 2236
+      },
+      {
+        "agent": "executor",
+        "tokens": 4076
+      },
+      {
+        "agent": "verifier",
+        "tokens": 4286
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.154,
+    "quality_score": 0.2,
+    "semantic_similarity_score": 0.386,
+    "end_time": 1791370407.4335783,
+    "feedback": {
+      "task_id": "complex_math_03",
+      "route": "multi_agent",
+      "complexity_score": 0.3267,
+      "accuracy": 0.154,
+      "quality": 0.2,
+      "latency": 45.038,
+      "tokens": 10598,
+      "cost": 0.00106,
+      "efficiency": 145.31,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.00106
+  },
+  {
+    "task_id": "complex_code_01",
+    "prompt": "Design a Python class hierarchy for a library management system. The system should handle books, magazines, and digital media. Each item should support borrowing, returning, and reservation. Include proper inheritance, abstract methods, and explain your design decisions. Then write a usage example showing polymorphism in action.",
+    "task_type": "code",
+    "ground_truth": null,
+    "response": "**Solution Overview**\n\nWe model every thing that can be taken out of the library as a *library item*.  \nAll items share the same core data (id, title, creator, availability, borrower,\ndue‑date, reservation queue) and the same three public operations\n*borrow → return → reserve*.  \n\nTo force every concrete type to implement those operations we use an\n**abstract base class** (`LibraryItem`).  The concrete subclasses\n`Book`, `Magazine` and `DigitalMedia` inherit the common state and\noverride the three abstract methods with the business rules that belong to\ntheir type (different loan periods, different handling of “availability”,\netc.).\n\nThe design also contains a tiny `User` class and two custom exceptions\nso that the demo script can be run without any external dependencies.\n\nFinally a short script creates a few items, puts them in a list typed as\n`List[LibraryItem]` and calls the same methods on each element – this is the\npolymorphic part of the example.\n\n\n\n--------------------------------------------------------------------\n### 1.  Design discussion  \n\n| Aspect | Reasoning |\n|--------|-----------|\n| **Common state** | `item_id`, `title`, `creator`, `is_available`, `borrower`, `due_date`, `_reservation_queue`.  All items need these fields, therefore they live in the base class. |\n| **Abstract interface** | `borrow(user)`, `return_item()`, `reserve(user)` are declared `@abstractmethod`.  This guarantees that every subclass provides a concrete implementation that respects the semantics of that item type. |\n| **Reservation handling** | The base class supplies private helpers (`_add_to_reservation_queue`, `_pop_next_reserver`) that are reused by every subclass – no duplication of queue logic. |\n| **Loan period** | Each concrete class defines a class‑level constant (`LOAN_DAYS`).  The base class offers `_set_due_date(days)` to compute the due date. |\n| **Digital media special case** | A digital item may be “available” to several users at the same time (e.g. a 3‑seat licence).  The subclass therefore stores `max_concurrent_loans` and a *set* of current borrowers instead of a single `borrower`. |\n| **Polymorphism** | Client code works with the abstract type `LibraryItem`.  It can store a heterogeneous collection of books, magazines and digital media and invoke the same methods on every element. |\n\n--------------------------------------------------------------------\n### 2.  Code  \n\n```python\n# library_system.py ---------------------------------------------------------\nfrom __future__ import annotations\n\nfrom abc import ABC, abstractmethod\nfrom collections import deque\nfrom datetime import datetime, timedelta\nfrom typing import Deque, List, Optional, Set\n\n\n# -------------------------------------------------------------------------\n# Simple domain objects and exceptions\n# -------------------------------------------------------------------------\nclass ItemNotAvailableError(Exception):\n    \"\"\"Raised when a user tries to borrow an item that cannot be loaned right now.\"\"\"\n\n\nclass ReservationError(Exception):\n    \"\"\"Raised for reservation‑related problems (e.g. duplicate reservation).\"\"\"\n\n\nclass User:\n    \"\"\"Very small user model – enough for the demo.\"\"\"\n\n    def __init__(self, user_id: str, name: str):\n        self.user_id = user_id\n        self.name = name\n\n    def __repr__(self) -> str:\n        return f\"User({self.user_id!r}, {self.name!r})\"\n\n\n# -------------------------------------------------------------------------\n# Abstract base class – the common contract\n# -------------------------------------------------------------------------\nclass LibraryItem(ABC):\n    \"\"\"\n    Abstract representation of any item that lives in the library.\n    Concrete subclasses must implement the three core behaviours.\n    \"\"\"\n\n    def __init__(self, item_id: str, title: str, creator: str) -> None:\n        self.item_id: str = item_id\n        self.title: str = title\n        self.creator: str = creator\n\n        self.is_available: bool = True          # for physical items\n        self.borrower: Optional[User] = None    # single borrower (physical)\n        self.due_date: Optional[datetime] = None\n        self._reservation_queue: Deque[User] = deque()\n\n    # -----------------------------------------------------------------\n    # Helper methods – internal use only\n    # -----------------------------------------------------------------\n    def _add_to_reservation_queue(self, user: User) -> None:\n        if user in self._reservation_queue:\n            raise ReservationError(\n                f\"{user.name} already has a reservation for '{self.title}'.\"\n            )\n        self._reservation_queue.append(user)\n        print(f\"[Reservation] {user.name} added to queue for '{self.title}'.\")\n\n    def _pop_next_reserver(self) -> Optional[User]:\n        if self._reservation_queue:\n            next_user = self._reservation_queue.popleft()\n            print(\n                f\"[Reservation] {next_user.name} is now the next borrower of '{self.title}'.\"\n            )\n            return next_user\n        return None\n\n    # -----------------------------------------------------------------\n    # Public abstract interface – must be overridden\n    # -----------------------------------------------------------------\n    @abstractmethod\n    def borrow(self, user: User) -> None:\n        \"\"\"Attempt to loan the item to *user*.\"\"\"\n        ...\n\n    @abstractmethod\n    def return_item(self) -> None:\n        \"\"\"Return the item to the library, handling any pending reservations.\"\"\"\n        ...\n\n    @abstractmethod\n    def reserve(self, user: User) -> None:\n        \"\"\"Place *user* on the reservation queue (or borrow immediately if free).\"\"\"\n        ...\n\n    # -----------------------------------------------------------------\n    # Utility used by many subclasses\n    # -----------------------------------------------------------------\n    def _set_due_date(self, loan_days: int) -> None:\n        self.due_date = datetime.now() + timedelta(days=loan_days)\n        print(f\"[Loan] Due date for '{self.title}' set to {self.due_date.date()}.\")\n\n\n# -------------------------------------------------------------------------\n# Concrete subclasses\n# -------------------------------------------------------------------------\n\nclass Book(LibraryItem):\n    \"\"\"Physical book – loan period 21 days.\"\"\"\n\n    LOAN_DAYS = 21\n\n    def __init__(\n        self,\n        item_id: str,\n        title: str,\n        author: str,\n        isbn: str,\n        publisher: str,\n        num_pages: int,\n    ) -> None:\n        super().__init__(item_id, title, author)\n        self.isbn = isbn\n        self.publisher = publisher\n        self.num_pages = num_pages\n\n    # -------------------------------------------------------------\n    def borrow(self, user: User) -> None:\n        if not self.is_available:\n            # Already loaned → go to reservation queue\n            print(f\"[Borrow] Book '{self.title}' not available; reserving for {user.name}.\")\n            self.reserve(user)\n            return\n\n        self.is_available = False\n        self.borrower = user\n        self._set_due_date(self.LOAN_DAYS)\n        print(f\"[Borrow] {user.name} borrowed book '{self.title}' (ISBN: {self.isbn}).\")\n\n    # -------------------------------------------------------------\n    def return_item(self) -> None:\n        if self.is_available:\n            print(f\"[Return] Book '{self.title}' is already in the library.\")\n            return\n\n        print(f\"[Return] {self.borrower.name} returned book '{self.title}'.\")\n        self.is_available = True\n        self.borrower = None\n        self.due_date = None\n\n        # If somebody is waiting, give the book to them automatically\n        next_user = self._pop_next_reserver()\n        if next_user:\n            self.borrow(next_user)\n\n    # -------------------------------------------------------------\n    def reserve(self, user: User) -> None:\n        if self.is_available:\n            # No need to wait – borrow immediately\n            print(f\"[Reserve] Book '{self.title}' is free; borrowing for {user.name}.\")\n            self.borrow(user)\n        else:\n            self._add_to_reservation_queue(user)\n\n\nclass Magazine(LibraryItem):\n    \"\"\"Physical magazine – loan period 7 days.\"\"\"\n\n    LOAN_DAYS = 7\n\n    def __init__(\n        self,\n        item_id: str,\n        title: str,\n        editor: str,\n        issue_number: int,\n        publication_month: str,\n    ) -> None:\n        super().__init__(item_id, title, editor)\n        self.issue_number = issue_number\n        self.publication_month = publication_month\n\n    # -------------------------------------------------------------\n    def borrow(self, user: User) -> None:\n        if not self.is_available:\n            print(f\"[Borrow] Magazine '{self.title}' not available; reserving for {user.name}.\")\n            self.reserve(user)\n            return\n\n        self.is_available = False\n        self",
+    "complexity_score": 0.3206,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 8794
+    },
+    "latency_seconds": 47.242,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 1296
+      },
+      {
+        "agent": "executor",
+        "tokens": 3205
+      },
+      {
+        "agent": "verifier",
+        "tokens": 4293
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.0,
+    "quality_score": 0.3,
+    "semantic_similarity_score": 0.0,
+    "end_time": 1791370462.932815,
+    "feedback": {
+      "task_id": "complex_code_01",
+      "route": "multi_agent",
+      "complexity_score": 0.3206,
+      "accuracy": 0.0,
+      "quality": 0.3,
+      "latency": 47.242,
+      "tokens": 8794,
+      "cost": 0.000879,
+      "efficiency": 0.0,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000879
+  },
+  {
+    "task_id": "complex_code_02",
+    "prompt": "Analyze the following algorithmic problem step by step: Given an array of n integers, find the longest subsequence such that the difference between adjacent elements is at most k. First, explain the brute force approach and its time complexity. Then, optimize using dynamic programming. Finally, analyze if there is a greedy solution. Compare all three approaches with time and space complexity analysis.",
+    "task_type": "code",
+    "ground_truth": null,
+    "response": "**Problem restatement**\n\n*Input*  \n\n* `A[0 … n‑1]` – an array of `n` integers (positive, negative or zero).  \n* `k ≥ 0` – the maximal allowed absolute difference between two consecutive elements of the subsequence.\n\n*Output*  \n\nThe **length** (and optionally the elements) of the longest subsequence  \n\n```\nS = (A[i1], A[i2], … , A[im]),   i1 < i2 < … < im\n```\n\nsuch that  \n\n```\n|A[it+1] – A[it]| ≤ k   for every 1 ≤ t < m .\n```\n\nThe subsequence need **not** be contiguous; the original order of the array must be respected.\n\n\n\n--------------------------------------------------------------------\n\n## 1. Brute‑force solution\n\n### Idea\nEnumerate **every** subset of indices, keep the indices in increasing order and test whether the resulting subsequence satisfies the condition. Keep the longest feasible one.\n\n### Pseudocode\n```python\nbest_len = 0\nbest_seq = []\n\nfor mask in range(1 << n):                # 2^n subsets\n    ok   = True\n    prev = None\n    cur_len = 0\n    cur_seq = []\n    for i in range(n):\n        if mask & (1 << i):               # i is selected\n            if prev is not None and abs(A[i] - prev) > k:\n                ok = False\n                break\n            prev = A[i]\n            cur_len += 1\n            cur_seq.append(A[i])\n    if ok and cur_len > best_len:\n        best_len = cur_len\n        best_seq = cur_seq[:]             # copy if we need the elements\n```\n\n### Complexity\n* **Time** – there are `2^n` masks and for each we may scan `n` positions → `O(2^n·n)`.  \n  Exponential; feasible only for `n ≤ 20‑30`.\n* **Space** – only the current subsequence (≤ n) and the best one → `O(n)` (or `O(1)` if we store only the length).\n\nThe brute‑force method is useful only as a correctness reference for tiny inputs.\n\n\n\n--------------------------------------------------------------------\n\n## 2. Dynamic‑programming solution\n\n### 2.1 DP definition\n`dp[i]` – length of the longest valid subsequence that **ends** at position `i` (and therefore contains `A[i]`).\n\n### 2.2 Transition\nFor each earlier index `j < i` that can be placed directly before `i` we have the condition  \n\n```\n|A[i] – A[j]| ≤ k .\n```\n\nHence we can extend any optimal subsequence ending at `j`:\n\n```\ndp[i] = 1                                 # subsequence consisting only of A[i]\nfor j = 0 … i‑1:\n    if |A[i] – A[j]| ≤ k:\n        dp[i] = max(dp[i], dp[j] + 1)\n```\n\nThe answer is `max_i dp[i]`.  \nIf we also need the actual subsequence we keep a `prev[i]` that stores the `j` giving the maximum.\n\n### 2.3 Naïve O(n²) implementation\n```python\ndef longest_len_n2(A, k):\n    n = len(A)\n    dp = [1] * n\n    for i in range(n):\n        for j in range(i):\n            if abs(A[i] - A[j]) <= k:\n                dp[i] = max(dp[i], dp[j] + 1)\n    return max(dp)\n```\n\n*Time*: `O(n²)`  \n*Space*: `O(n)` (the `dp` array, plus `O(n)` for a predecessor array if reconstruction is required).\n\nThis works comfortably up to `n ≈ 10⁴‑10⁵` depending on the constant factor.\n\n\n\n### 2.4 Faster O(n log n) implementation\n\nThe inner loop can be replaced by a range‑maximum query on the set of already‑processed elements whose **value** lies in `[A[i]‑k, A[i]+k]`.  \nWe need a data structure that supports:\n\n* **update(value, dp)** – store the best `dp` for this exact value (or keep the maximum if the value appears several times);\n* **query(l, r)** – maximum `dp` among all stored values in the interval `[l, r]`.\n\nBoth operations can be done in `O(log M)` where `M` is the number of distinct values, using a balanced binary‑search tree, a segment tree, or a Fenwick tree with coordinate compression.\n\n#### Coordinate compression\n```python\nvals = sorted(set(A))                 # distinct sorted values\ncomp = {v:i for i, v in enumerate(vals)}   # value → compressed index 0…M‑1\nM = len(vals)\n```\n\n#### Segment‑tree version (clean and easy to understand)\n```python\ndef longest_len_nlogn(A, k):\n    n = len(A)\n    vals = sorted(set(A))\n    comp = {v:i for i, v in enumerate(vals)}\n    M = len(vals)\n\n    seg = [0] * (4 * M)                # segment tree for range‑max\n\n    def seg_update(node, lo, hi, idx, val):\n        if lo == hi:\n            seg[node] = max(seg[node], val)\n            return\n        mid = (lo + hi) // 2\n        if idx <= mid:\n            seg_update(node*2, lo, mid, idx, val)\n        else:\n            seg_update(node*2+1, mid+1, hi, idx, val)\n        seg[node] = max(seg[node*2], seg[node*2+1])\n\n    def seg_query(node, lo, hi, ql, qr):\n        if ql > hi or qr < lo:\n            return 0\n        if ql <= lo and hi <= qr:\n            return seg[node]\n        mid = (lo + hi) // 2\n        return max(seg_query(node*2, lo, mid, ql, qr),\n                   seg_query(node*2+1, mid+1, hi, ql, qr))\n\n    best = 0\n    for x in A:\n        idx = comp[x]\n        # interval of values that are within k of x\n        left  = x - k\n        right = x + k\n        l = bisect_left(vals, left)\n        r = bisect_right(vals, right) - 1\n        cur = 1\n        if l <= r:                     # there is at least one admissible predecessor\n            cur = seg_query(1, 0, M-1, l, r) + 1\n        best = max(best, cur)\n        seg_update(1, 0, M-1, idx, cur)\n\n    return best\n```\n\n*Time*: `O(n log M) = O(n log n)` (the `log` comes from the segment‑tree operations).  \n*Space*: `O(M) = O(n)` for the compressed values and the tree.\n\nA Fenwick tree can be used as well; it needs two prefix‑max queries to emulate a range‑max, but the asymptotic bounds stay the same.\n\n\n\n--------------------------------------------------------------------\n\n## 3. Greedy approach – does it exist?\n\nA greedy algorithm would decide, at each step, which element to take next based only on local information (e.g., “take the next element that is within `k` of the current one and is as large as possible”).  \n\n### Why a simple greedy fails\nConsider the array  \n\n```\nA = [1, 4, 2, 3] ,   k = 1\n```\n\n*Greedy choice 1*: start with `1`. The next element that satisfies `|next‑1| ≤ 1` is `2` (skip `4`). From `2` we can take `3`. Greedy yields subsequence `[1,2,3]` of length 3 – which is optimal.\n\n*Greedy choice 2*: start with `4`. The only element within distance 1 is `3`, giving `[4,3]` of length",
+    "complexity_score": 0.4085,
+    "route": "multi_agent",
+    "model_used": "multi-agent (groq:openai/gpt-oss-120b)",
+    "token_usage": {
+      "input": 0,
+      "output": 0,
+      "total": 9120
+    },
+    "latency_seconds": 59.854,
+    "intermediate_steps": [
+      {
+        "agent": "planner",
+        "tokens": 1466
+      },
+      {
+        "agent": "executor",
+        "tokens": 3337
+      },
+      {
+        "agent": "verifier",
+        "tokens": 4317
+      }
+    ],
+    "routing_confidence": 1.0,
+    "routing_reason": "Forced multi_agent (experiment control)",
+    "accuracy_score": 0.0,
+    "quality_score": 0.3,
+    "semantic_similarity_score": 0.0,
+    "end_time": 1791370530.3299246,
+    "feedback": {
+      "task_id": "complex_code_02",
+      "route": "multi_agent",
+      "complexity_score": 0.4085,
+      "accuracy": 0.0,
+      "quality": 0.3,
+      "latency": 59.854,
+      "tokens": 9120,
+      "cost": 0.000912,
+      "efficiency": 0.0,
+      "routing_correct": true
+    },
+    "routing_was_correct": true,
+    "estimated_cost": 0.000912
+  }
+]
